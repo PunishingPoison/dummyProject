@@ -6,6 +6,6 @@
 # Replace this URL with your backend's deployment URL once it's live
 [[redirects]]
   from = "/api/*"
-  to = "https://your-backend.onrender.com/api/:splat"
+  to = "https://dummyproject.up.railway.app/api/:splat"
   status = 200
   force = true
