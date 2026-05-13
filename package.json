@@ -1,0 +1,28 @@
+{
+  "name": "student-dropout-predictor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "backend": "cd backend && python -m uvicorn main:app --reload --port 8000",
+    "dev:all": "concurrently \"cd backend && python -m uvicorn main:app --reload --port 8000\" \"next dev --port 4000\""
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "concurrently": "^9.0.0"
+  }
+}

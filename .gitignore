@@ -1,0 +1,12 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.env
+.env.local
+*.egg-info/
+dist/
+build/
+
+# Raw OULAD data (large, not needed for app)
+OULAD/studentVle.csv
